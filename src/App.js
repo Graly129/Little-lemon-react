@@ -1,13 +1,17 @@
-import logo from '../icons_assets/Logo.svg';
 import './App.css';
+import './index.css';
+import Navbar from './nav.js';
+import Footer from './footer.js';
+import MainComponent from './main.js';
 
 
-function App() {
+
+function App () {
   return (
     <>
-    <img src={logo} alt="Logo" />
-    <Header />
-    <Nav /> <Main /> <Footer />
+    <Navbar /> 
+    <MainComponent />
+    <Footer />
     </>
   );
 }
