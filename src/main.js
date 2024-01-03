@@ -1,6 +1,7 @@
 import restaurantfood from '../icons_assets/restauranfood.jpg';
 import GreekSalad from '../icons_assets/greek salad.jpg';
-import LemonDessert from '../icons_assets/lemon dessert.jpg'
+import LemonDessert from '../icons_assets/lemon dessert.jpg';
+import Bruchetta from '../icons_assets/bruchetta.svg';
 
 const MainComponent = () => {
     return (

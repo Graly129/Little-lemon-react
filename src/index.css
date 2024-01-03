@@ -31,6 +31,12 @@ button{
   width: auto;
 }
 
+form{
+  display: grid; 
+  max-width: 200px; 
+  gap: 20px;
+}
+
 
 .nav-menu{
   background-color: #fff;
